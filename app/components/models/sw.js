@@ -17,7 +17,7 @@ export default class People {
 
 
   getTemplate() {
-    return `<div class="col-3 my-1">
+    return `<div class="col-12 col-sm-6 col-md-4 col-lg-3 my-1">
     <div class="card bg-light">
 <h5 class="card-title text-center"><u>${this.name}</u></h5>
 <h5 class="card-subtitle py-2">Height:<span class="text-primary"> ${this.height}cm.</span></h5>
