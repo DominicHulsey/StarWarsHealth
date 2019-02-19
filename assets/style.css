@@ -1,0 +1,15 @@
+.bg-img {
+  background-image: url('https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/GfRLKaE/videoblocks-4k-night-sky-clouds-stars-galaxy-universe-background_bj7v4h7iz_thumbnail-full01.png');
+  background-attachment:fixed;
+  background-position: center;
+  background-size:cover;
+}
+
+.card {
+  transition: all 0.2s linear;
+}
+
+.card:hover {
+  transform:scale(1.1);
+  z-index:1;
+}
