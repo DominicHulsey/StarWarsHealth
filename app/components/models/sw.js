@@ -20,8 +20,8 @@ export default class People {
     return `<div class="col-3 my-1">
     <div class="card bg-light">
 <h5 class="card-title"><u>${this.name}</u></h5>
-<h5 class="card-subtitle py-2">Height:<span class="text-primary"> ${this.height}</span></h5>
-<h5 class="card-subtitle py-2">weight:<span class="text-primary"> ${this.mass}</span></h5>
+<h5 class="card-subtitle py-2">Height:<span class="text-primary"> ${this.height}cm.</span></h5>
+<h5 class="card-subtitle py-2">weight:<span class="text-primary"> ${this.mass}kgs.</span></h5>
 <h5 class="card-text py-2">BMI:<span class="text-success">${this.bmi}</span></h5>
 <h5 class="card-text py-2 text-center"><span class="text-info" id="health"><h3>${this.healthStatus}</h3></span></h5>
 </div >
